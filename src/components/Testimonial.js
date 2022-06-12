@@ -5,7 +5,7 @@ import people from '../data'
 export const Testimonial = () => {
   const [ index, setIndex ] = useState(0)
   const { name, text, image, cargo  } = people[index]
-
+  
   const nextTestimonial = () => {
     setIndex((index) => {
         let newIndex = index + 1;
